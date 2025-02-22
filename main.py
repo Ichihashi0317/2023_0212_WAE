@@ -92,7 +92,7 @@ SIM_test.nloop_max = 1e4
 SIM_test.SymError_max = 1e6
 if SIM_test.env_server:
     SIM_test.nloop_max /= SIM_test.nworker #
-    SIM_test.SymError_min /= SIM_test.nworker #
+    SIM_test.SymError_max /= SIM_test.nworker #
 # 表示
 print(SIM_test.__dict__)
 
