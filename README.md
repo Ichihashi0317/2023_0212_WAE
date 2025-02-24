@@ -1,4 +1,5 @@
 # Autoencoder-for-Channel-Estimation
+逐次通信路推定および繰り返し通信路推定のための自己符号化器 <br>
 詳細は文献[^MyPaper]を参照．
 [^MyPaper]: https://ken.ieice.org/ken/paper/20230125LCpY/
 
