@@ -174,25 +174,3 @@ if SIM_test.env_server == False:
     plt.xlabel("SNR[dB]")
     plt.ylabel("SER")
     plt.show()
-
-# %% [markdown]
-# # スプレッドシート転記用出力
-
-# %%
-# 正規化規則
-for normalize in normalize_list:
-    print(normalize, end=" ")
-print()
-
-# 最小シンボル間距離
-for RES in RES_test:
-    print(RES.distance, end=" ")
-print()
-
-# SER
-for i in range(SIM_test.EsN0Vec.shape[0]):
-    for RES in RES_test:
-        print(RES.SER[i], end=" ")
-    print()
-
-
